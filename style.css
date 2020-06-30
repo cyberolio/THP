@@ -1,0 +1,25 @@
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: blue;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: blue;
+}
+
+#header
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+#Google
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
